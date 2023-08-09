@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+:root{
+    --cor-primaria: rgb(254, 242, 244);
+    --cor-secundaria: rgb(252, 200, 209);
+    --cor-terciaria: rgb(255, 171, 171);
+    --cor--quarta: rgb(209, 77, 114)
+}
+
+body{
+    background-image: url(../assets/ursinhos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cabecalho{
+    border: 7px solid;
+    border-style: outset;
+    border-color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
+}
+
+.cabecalho__menu{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cabecalho__menu__links{
+    text-decoration: none;
+    color: var(--cor--quarta);
+    font-size: 20pt;
+}
+
+.cabecalho__menu__links:hover{
+    color: rgb(255, 0, 170);
+}
+
+.titulo{
+    font-size: 45pt;
+    text-align: center;
+    color: rgb(0, 215, 255);
+}
+
+.subtitulo{
+    font-size: 25pt;
+    color: rgb(0, 215, 255);
+    margin: 1% 2% 1% 2%;
+    gap: 10pt;
+}
+
+.desconto{
+    margin-left: 2%;
+}
+
+.rodape{
+    border: 7px solid;
+    border-style: outset;
+    border-color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
+    padding: 10px;
+    text-align: center;
+    font-size: 20pt;
+    color: var(--cor--quarta);
+    position: absolute;
+    bottom: 0;
+    width: 98.2%;
+}
